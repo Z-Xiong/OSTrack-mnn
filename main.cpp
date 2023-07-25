@@ -109,10 +109,10 @@ int main(int argc, char** argv)
     }
 
     // Get model path.
-    const char* model_path = argv[1]; //"/home/zxiong/hd0/ClionProjects/OSTrack-mnn/model/ostrack-bit8.mnn";
+    const char* model_path = argv[1]; // OSTrack-mnn/model/ostrack-bit8.mnn";
 
     // Get video path.
-    const char* video_path = argv[2]; //"/home/zxiong/hd0/ClionProjects/LightTrack-ncnn/install/lighttrack_demo/1.avi";
+    const char* video_path = argv[2]; 
 
     // Build tracker.
     OSTrack *ostracker;
