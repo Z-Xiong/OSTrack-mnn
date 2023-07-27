@@ -274,8 +274,7 @@ def run(tracker, video_path):
     cv2.destroyAllWindows()      
 
 if __name__ == "__main__":
-    ostrack = Tracker(model_path="/home/zxiong/hd0/ClionProjects/OSTrack-mnn/model/ostrack-256-ep300.onnx")
-    run(ostrack, video_path="/home/zxiong/hd0/ClionProjects/LightTrack-ncnn/install/lighttrack_demo/1.avi")
-    # run(ostrack, video_path="0")
+    ostrack = Tracker(model_path="model/ostrack-256-ep300.onnx")
+    run(ostrack, video_path="0")
 
     

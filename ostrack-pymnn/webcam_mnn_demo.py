@@ -274,16 +274,7 @@ def run(tracker, video_path):
     cv2.destroyAllWindows()      
 
 if __name__ == "__main__":
-    ostrack = Tracker(model_path="/home/zxiong/hd0/ClionProjects/OSTrack-mnn/model/quant_ostrack-256-ep300.mnn")
-    ostrack = Tracker(model_path="/home/zxiong/hd0/ClionProjects/OSTrack-mnn/model/quant_ostrack-256-ep300.mnn")
-    ostrack = Tracker(model_path="/home/zxiong/hd0/ClionProjects/OSTrack-mnn/model/quant_ostrack-256-ep300.mnn")
-    ostrack = Tracker(model_path="/home/zxiong/hd0/ClionProjects/OSTrack-mnn/model/quant_ostrack-256-ep300.mnn")
-    ostrack = Tracker(model_path="/home/zxiong/hd0/ClionProjects/OSTrack-mnn/model/ostrack-384-ep300.mnn")
-    ostrack = Tracker(model_path="/home/zxiong/hd0/ClionProjects/OSTrack-mnn/model/quant_ostrack-256-ep300.mnn")
-    ostrack = Tracker(model_path="/home/zxiong/hd0/ClionProjects/OSTrack-mnn/model/quant_ostrack-256-ep300.mnn")
-    ostrack = Tracker(model_path="/home/zxiong/hd0/ClionProjects/OSTrack-mnn/model/quant_ostrack-256-ep300.mnn")
-    ostrack = Tracker(model_path="/home/zxiong/hd0/ClionProjects/OSTrack-mnn/model/quant_ostrack-256-ep300.mnn")
-    run(ostrack, video_path="/home/zxiong/hd0/ClionProjects/LightTrack-ncnn/install/lighttrack_demo/1.avi")
-    # run(ostrack, video_path="0")
+    ostrack = Tracker(model_path="model/quant_ostrack-256-ep300.mnn")
+    run(ostrack, video_path="0")
 
     
