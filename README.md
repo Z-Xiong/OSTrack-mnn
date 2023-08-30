@@ -5,7 +5,9 @@ The official implementation by pytorch:
 https://github.com/botaoye/OSTrack
 
 # 0. Download model
-链接: https://pan.baidu.com/s/1nq7q5AWiQ7QYoqTmQ1TKgg?pwd=x6cj 提取码: x6cj
+- [Baidu网盘](https://pan.baidu.com/s/1nq7q5AWiQ7QYoqTmQ1TKgg?pwd=x6cj) 提取码: x6cj
+
+- [Google Drive](https://drive.google.com/drive/folders/1GcXOTofZGRZ0WdgnRN7voii1C689tnRJ?usp=sharing)
 
 # 1. How to build and run it?
 
